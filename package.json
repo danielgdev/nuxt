@@ -1,11 +1,14 @@
 {
+  "name": "@x0dado/nuxt",
   "private": true,
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",
     "start": "node .output/server/index.mjs"
   },
-  "devDependencies": {
+  "dependencies": {
+    "@nuxt/kit": "latest",
     "nuxt3": "latest"
-  }
+  },
+  "packageManager": "yarn@3.1.1"
 }
