@@ -7,7 +7,6 @@
     "start": "node .output/server/index.mjs"
   },
   "dependencies": {
-    "@nuxt/kit": "latest",
     "nuxt3": "latest"
   },
   "packageManager": "yarn@3.1.1"
